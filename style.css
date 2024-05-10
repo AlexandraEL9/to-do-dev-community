@@ -1,0 +1,42 @@
+/*Set root variables */
+:root {
+    --primary-color: white;
+    --secondary-color: #1E1E1E;
+    --text-color: black;
+    --task-color: white;
+    --footer-color: #1E1E1E;
+    --theme-btn: url('Dark-theme-btn.svg');
+    --container-bg: url('Light-empty.svg');
+    --complete-icon: url('assets/complete.svg');
+    --filter: none;
+    --theme-transition: 0s;
+
+}
+
+* {
+    font-family: "Times New Roman";
+    outline: none;
+} 
+
+/* Main body styles */
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    border: 4px solid;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 80vh;
+    border-radius: 20px;
+    overflow: hidden;
+    /*background: ;
+    transition: ;*/
+}

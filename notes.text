@@ -1,0 +1,9 @@
+1. set up files and directories
+
+2. Open your style.css file to style the to-do app. Follow these steps to style your to-do.
+
+--Set root variables
+---Define container layouts
+----Set hover effects
+-----Style input placeholder using pseudo classes.
+------Add Media queries
