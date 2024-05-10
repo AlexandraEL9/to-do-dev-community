@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo light/dark</title>
+</head>
+<body>
+    <div class="container task_list_empty">
+<!--header with dark/light theme toggle button-->
+        <header>
+            <div class="theme_toggle">
+                <button class="theme_toggle_btn"></button>
+            </div>
+            <span class="heading">My Day</span>
+        </header>
+<!--tasklist section with list-->
+        <section class="tasks">
+            <ul id="tasks"></ul>
+        </section>
+<!--footer form to add tasks to list with button-->
+        <footer>
+            <form id="new_task_form">
+                <input type="text" name="new_task_input" id="new_task_input" placeholder="Create New Task" value="" />
+                <button id="new_task_input_btn" type="submit"></button>
+            </form>
+        </footer>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
